@@ -1,0 +1,11 @@
+body {
+    background-color: royalblue;
+    color: aliceblue;
+}
+
+h1 {
+    background-color: mediumaquamarine;
+    color:black;
+    border: outset;
+    text-align: center;
+}

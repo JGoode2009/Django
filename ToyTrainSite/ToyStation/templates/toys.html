@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jonathan's Best Anime List</title>
+    <link rel="stylesheet" href="../../static/styles.css">
+</head>
+
+<body>
+    <h1>Welcome to Goode Anime!</h1>
+
+    {% for toy in toys %}
+    <h2>{{ toy.name }}</h2>
+    <p>{{ toy.description }}</p>
+    {% endfor %}
+</body>
+
+</html>
